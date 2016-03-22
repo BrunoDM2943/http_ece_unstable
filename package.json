@@ -1,0 +1,31 @@
+{
+  "author": {
+    "email": "martin.thomson@gmail.com",
+    "name": "Martin Thomson"
+  },
+  "bugs": {
+    "url": "https://github.com/martinthomson/encrypted-content-encoding/issues"
+  },
+  "dependencies": {
+    "urlsafe-base64": "~1.0.0"
+  },
+  "description": "Encrypted Content-Encoding for HTTP",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "homepage": "https://github.com/martinthomson/encrypted-content-encoding",
+  "license": "MIT",
+  "main": "./ece.js",
+  "maintainers": [
+    {
+      "email": "martin.thomson@gmail.com",
+      "name": "martinthomson"
+    }
+  ],
+  "name": "http_ece",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinthomson/encrypted-content-encoding.git"
+  },
+  "version": "0.4.5"
+}
