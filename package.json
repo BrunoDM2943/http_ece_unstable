@@ -9,7 +9,15 @@
   "dependencies": {
     "urlsafe-base64": "~1.0.0"
   },
+  "devDependencies": {
+    "mocha": "5.2.0",
+    "semver": "5.6.0",
+    "istanbul": "0.4.5"
+  },
   "description": "Encrypted Content-Encoding for HTTP",
+  "scripts": {
+    "test": "node --harmony node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- --ui tdd test/test*"
+  },
   "engines": {
     "node": ">=4.0.0"
   },
